@@ -1,0 +1,248 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	header{
+		top: 0;
+		z-index: 5;
+		padding-bottom: 1%;
+		position: fixed;
+		height: 8.5rem;
+		left: 0.0rem;
+		background-color: black;
+	  }
+	   
+	  .Header-Site-Title {
+		height: 0rem;
+		width: 100%;
+		top: 0;
+	  }
+	  
+	  .Header-logo{
+		  height: 5.5rem !important;
+		  padding: 0 0;
+		  margin: 0;
+		  display: inline;
+		  float: left;
+
+	  }
+	   .Department-Name{
+		  margin: 0;
+		  font-size: smaller !important;
+		  margin-bottom: 5px;
+		  height: 100px;
+		  float: right;
+		  display: inline;
+		  color: white;
+	  }
+	  
+	  .Department-Name h3{
+		  margin-bottom: 15px;
+		  margin-top: -17px
+	  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	header{
+		top: 0;
+		z-index: 5;
+		padding-bottom: 1%;
+		position: fixed;
+		height: 8.5rem;
+		left: 0.0rem;
+		background-color: black;
+		width : 100%;
+	  }
+	   
+	  .Header-Site-Title {
+		height: 0rem;
+		width: 100%;
+		top: 0;
+
+	  }
+	  
+	  .Header-logo{
+		  height: 5.4rem !important;
+		  width: 5.9rem;
+		  padding: 5px 10px 0 5px;
+		  margin: 0;
+		  display: inline;
+		  float: left;
+	  }
+	  
+	  
+	  .Department-Name{
+		  margin: 0;
+		  margin-bottom: 5px;
+		  height: 100px;
+		  float: left;
+		  display: inline;
+		  color: white;
+		  padding-top: 15px;
+	  }
+
+	  .Department-Name h1 {
+		  font-size: 20px;
+	  }
+	  
+	  .Department-Name h3{
+		  margin-bottom: 15px;
+		  margin-top: -17px;
+		  font-size: 14px;
+	  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	header{
+		top: 0;
+		z-index: 5;
+		padding-bottom: 1%;
+		position: fixed;
+		height: 8.5rem;
+		left: 0.0rem;
+		background-color: black;
+		width: 100%;
+	  }
+	   
+	  .Header-Site-Title {
+		height: 0rem;
+		width: 100%;
+		top: 0;
+	  }
+	  
+	  .Header-logo{
+		  height: 6rem !important;
+		  width: 6.5rem;
+		  padding: 5px 10px 0 5px;
+		  margin: 0;
+		  display: inline;
+		  float: left;
+	  }
+	  
+	  
+	  .Department-Name{
+		  margin-top: 10px !important;
+		  margin-bottom: 5px;
+		  height: 100px;
+		  float: left;
+		  display: inline;
+		  color: white;
+	  }
+
+	  .Department-Name h1 {
+		  font-size: 25px;
+	  }
+	  
+	  .Department-Name h3{
+		  margin-bottom: 15px;
+		  margin-top: -17px;
+		  font-size: 18px;
+	  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	header{
+		margin-top: 0;
+		padding-bottom: 1%;
+		position: fixed;
+		height: 8.5rem;
+		z-index: 5;
+		left: 0.0rem;
+		width: 100%;
+		background-color: black;
+	  }
+	   
+	  .Header-Site-Title {
+		height: 0rem;
+		width: 100%;
+		top: 0;
+
+	  }
+	  
+	  .Header-logo{
+		  height: 8rem !important;
+		  width: 8.5rem;
+		  padding: 5px 10px 0 5px;
+		  margin: 0;
+		  display: inline;
+		  float: left;
+	  }
+	  
+	  
+	  .Department-Name{
+		  margin: 0;
+		  margin-bottom: 5px;
+		  height: 100px;
+		  float: left;
+		  display: inline;
+		  color: white;
+		  padding-top: 16px;
+	  }
+
+	  .Department-Name h1 {
+		  font-size: 30px;
+	  }
+
+	  
+	  .Department-Name h3{
+		  margin-bottom: 15px;
+		  margin-top: -17px;
+		  font-size: 23px;
+	  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	header{
+		margin-top: 0;
+		padding-bottom: 1%;
+		position: fixed;
+		height: 8.5rem;
+		background-color: white;
+		z-index: 5;
+		left: 0.0rem;
+		width: 100%;
+	  }
+	   
+	  .Header-Site-Title {
+		height: 0rem;
+		width: 100%;
+		top: 0;
+	  }
+	  
+	  .Header-logo{
+		  height: 8.5rem !important ; 
+		  width: 8.5rem;
+		  padding: 5px 10px 10px 5px;
+		  margin: 0;
+		  display: inline;
+		  float: left;
+		  background-color:rgb(255, 255, 255)
+	  }
+	  
+	  
+	  .Department-Name{
+		  margin: 0;
+		  margin-bottom: 5px;
+		  height: 100px;
+		  float: left;
+		  display: inline;
+		  color: rgb(95, 212, 216);
+		  padding-top: 12px;
+	  }
+
+	  .Department-Name h1 {
+		  font-size: 32px;
+	  }
+	  
+	  .Department-Name h3{
+		  margin-bottom: 15px;
+		  margin-top: -17px;
+		  font-size: 25px;
+	  }
+}
+
+
+  
+  

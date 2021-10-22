@@ -1,0 +1,50 @@
+body {
+  background: url(Background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  color: white;
+  font-family: Helvetica, Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  width: inherit;
+  margin-left: -28rem;
+}
+
+/*
+
+.Header-Site-Title {
+  height: 18vh;
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.Department-Name {
+  margin-left: 50px;
+  margin-bottom: 5px;
+  height: 100px;
+  float: left;
+  display: inline;
+  color: white;
+  line-height: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+.Department-Name h1 {
+  font-size: 35px;
+}
+
+.Department-Name p {
+  font-size: 25px;
+}
+ */
+
+ .normal-pages {
+   width: 100vw;
+   height: 100vh;
+ }
+.password {
+  color: white;
+}

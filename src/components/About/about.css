@@ -1,0 +1,281 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .grid-container-about {
+      z-index: 0;
+      margin-top: 5rem;
+      margin-left: 28rem;
+  }
+  .aboutTile {
+      margin: 0;
+      padding: 0 0;
+      height: 70vh;
+      width: 80vw;
+      left: 0.0rem;
+  }
+  .aboutTileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 15%;
+      color: white;
+      position: fixed;
+      margin-left: 0px;
+  }
+  .aboutTileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+  }
+  hr {
+      width: 70%;
+      display: block;
+  }
+  .aboutTileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 72.3%;
+      box-sizing: border-box;
+      color: white;
+      /*margin-top: 2%;*/
+      margin-left: 27.5%;
+      /*margin: 0 0 0 30em;*/
+  }
+  .aboutTileContent>.aboutTileContent-text {
+      padding: 15%;
+      overflow: wrap;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .grid-container-about {
+      z-index: 0;
+      margin-top: 6.1rem;
+      margin-left: 13rem;
+  }
+  .aboutTile {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      left: 0.0rem;
+  }
+  .aboutTileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 35%;
+      color: white;
+      position: fixed;
+      margin-left: -12px;
+  }
+  .aboutTileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+  }
+  hr {
+      width: 70%;
+      display: block;
+  }
+  .aboutTileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 72.3%;
+      box-sizing: border-box;
+      color: white;
+      /*margin-top: 2%;*/
+      margin-left: 27.5%;
+      /*margin: 0 0 0 30em;*/
+  }
+  .aboutTileContent>.aboutTileContent-text {
+      padding: 15%;
+      overflow: wrap;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grid-container-about {
+      z-index: 0;
+      margin-top: 5.6rem;
+      margin-left: 9.7rem;
+  }
+  .aboutTile {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      left: 0.0rem;
+  }
+  .aboutTileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 33%;
+      color: white;
+      position: fixed;
+      margin-right: 15%;
+      margin-top: 4%;
+      left: 0.0rem;
+  }
+  .aboutTileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+  }
+  hr {
+      width: 70%;
+      display: block;
+  }
+  .aboutTileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      box-sizing: border-box;
+      color: white;
+      margin-top: 3.5%;
+      left: 30%;
+      /*margin: 0 0 0 30em;*/
+  }
+  .aboutTileContent>.aboutTileContent-text {
+      padding: 12% 4% 5% 40%;
+      overflow: wrap;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .grid-container-about {
+      z-index: 0;
+      margin-top: 5.6rem;
+      margin-left: 9.7rem;
+  }
+  .aboutTile {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      left: 0.0rem;
+  }
+  .aboutTileHeading {
+      left: 0.0rem; 
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 33%;
+      color: white;
+      position: fixed;
+      margin-right: 15%;
+      margin-top: 4%;
+  }
+  .aboutTileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+  }
+  hr {
+      width: 70%;
+      display: block;
+  }
+  .aboutTileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      box-sizing: border-box;
+      color: white;
+      margin-top: 3.5%;
+      left: 30%;
+      /*margin: 0 0 0 30em;*/
+  }
+  .aboutTileContent>.aboutTileContent-text {
+      padding: 12% 4% 5% 38%;
+      overflow: wrap;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .grid-container-about{
+      z-index: 0;
+      margin-top: 5.3rem;
+      left: 0rem;
+  }
+  .aboutTile {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 98vw;
+      left: 0.0rem;
+  }
+  .aboutTileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 30%;
+      color: white;
+      position: fixed;
+      left: 0.0rem;
+  }
+  .aboutTileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+  }
+  hr {
+      width: 70%;
+      display: block;
+  }
+  .aboutTileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      box-sizing: border-box;
+      color: white;
+      margin-top: 2%;
+      left: 30%;
+  }
+  .aboutTileContent>.aboutTileContent-text {
+      padding: 12% 10% 5% 38%;
+      overflow: wrap;
+      display: flex;
+      flex-direction: column;
+  }
+}

@@ -1,0 +1,497 @@
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Main-Content{ 
+    background-color: #b2d4e9;
+    width: inherit;
+    position: absolute;
+    display: block;
+    left: 0.0rem;
+  }
+
+  .Above-Fold {
+    height: 93vh;
+  }
+
+  .Home-Branch-Box{
+    padding-top: 30%;
+    height: 100%;
+    text-align: center;
+    color: #80808070;
+    position: relative;
+    font-size: larger;
+    }
+
+  .Branch-Box-Heading {
+    padding: 20px;
+    color: #80808070;
+    display: inline-block;
+    border-style: solid;
+    width: 50vw;
+    font-size: larger;
+    position: absolute;
+    top: 40%;
+    left: 25vw;
+    text-decoration: solid;
+}
+/********************Announcement Home Page *********************/
+
+  .grid-container {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tile {
+    height: 90vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  .tileHeading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053C5E;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    color: white;
+  }
+  .tileHeading h2 {
+    width: 100%;
+    padding-top: -5rem;
+    text-align: center;
+
+  }
+  
+  hr {
+    width: 70%;
+    display: block;
+  }
+  
+  .tileContent {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 67%;
+    color: white;
+  }
+  
+  .tileContent > .tileContent-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 150%;
+  
+  }
+  
+  li {
+    padding: 3%;
+  }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .Main-Content{ 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: inherit;
+      position: absolute;
+      display: block;
+      left: 0.8rem;
+    }
+
+    .Above-Fold {
+      height: 100vh;
+    }
+
+    .Home-Branch-Box{
+      padding-top: 30%;
+      height: 100%;
+      text-align: center;
+      color: #4d4b4be1;
+      position: relative;
+      font-size: larger;
+      }
+
+    .Branch-Box-Heading {
+      padding: 20px;
+      display: inline-block;
+      color: #1b1b1be1;
+      border-style: solid;
+      width: 50vw;
+      font-size: larger;
+      position: absolute;
+      top: 40%;
+      left: 25vw;
+      text-decoration: solid;
+    }
+    .Text-Box {
+      font-size: 40px;
+      color: #1b1b1be1;
+    }
+  /********************Announcement Home Page *********************/
+
+    .grid-container {
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tile {
+      height: 37vw;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1%;
+    }
+    .tileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 33%;
+      color: white;
+    }
+    .tileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+    }
+    
+    hr {
+      width: 70%;
+      display: block;
+    }
+    
+    .tileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 67%;
+      color: white;
+    }
+    
+    .tileContent > .tileContent-text {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 150%;
+    
+    }
+    
+    li {
+      padding: 3%;
+    }
+   
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .Main-Content{ 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: inherit;
+      position: absolute;
+      display: block;
+      left: 0.8rem;
+    }
+
+    .Above-Fold {
+      height: 100vh;
+    }
+
+    .Home-Branch-Box{
+      padding-top: 30%;
+      height: 100%;
+      text-align: center;
+      color: white;
+      position: relative;
+      font-size: larger;
+      }
+
+    .Branch-Box-Heading {
+      padding: 20px;
+      display: inline-block;
+      border-style: solid;
+      width: 50vw;
+      font-size: larger;
+      position: absolute;
+      top: 40%;
+      left: 25vw;
+      text-decoration: solid;
+  }
+  /********************Announcement Home Page *********************/
+
+    .grid-container {
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tile {
+      height: 37vw;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1%;
+    }
+    .tileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 33%;
+      color: white;
+    }
+    .tileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+    }
+    
+    hr {
+      width: 70%;
+      display: block;
+    }
+    
+    .tileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 67%;
+      color: white;
+    }
+    
+    .tileContent > .tileContent-text {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 150%;
+    
+    }
+    
+    li {
+      padding: 3%;
+    }
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .Main-Content{ 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: inherit;
+      position: absolute;
+      display: block;
+      left: 0.8rem;
+    }
+
+    .Above-Fold {
+      height: 100vh;
+    }
+
+    .Home-Branch-Box{
+      padding-top: 30%;
+      height: 100%;
+      text-align: center;
+      color: white;
+      position: relative;
+      font-size: larger;
+      }
+
+    .Branch-Box-Heading {
+      padding: 20px;
+      display: inline-block;
+      border-style: solid;
+      width: 50vw;
+      font-size: larger;
+      position: absolute;
+      top: 40%;
+      left: 25vw;
+      text-decoration: solid;
+  }
+  /********************Announcement Home Page *********************/
+
+    .grid-container {
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tile {
+      height: 37vw;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1%;
+    }
+    .tileHeading {
+      display: flex;
+      flex-direction: column;
+      background-color: #053C5E;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 33%;
+      color: white;
+    }
+    .tileHeading h2 {
+      width: 100%;
+      padding: auto;
+      text-align: center;
+    }
+    
+    hr {
+      width: 70%;
+      display: block;
+    }
+    
+    .tileContent {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 67%;
+      color: white;
+    }
+    
+    .tileContent > .tileContent-text {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 150%;
+    
+    }
+    
+    li {
+      padding: 3%;
+    }
+   
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .Main-Content{ 
+        z-index: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: inherit;
+        position: absolute;
+        display: block;
+        left: 0.8rem;
+      }
+
+      .Above-Fold {
+        height: 100vh;
+      }
+
+      .Home-Branch-Box{
+        padding-top: 30%;
+        height: 100%;
+        text-align: center;
+        color: white;
+        position: relative;
+        font-size: larger;
+        }
+
+      .Branch-Box-Heading {
+        padding: 20px;
+        display: inline-block;
+        border-style: solid;
+        width: 50vw;
+        font-size: larger;
+        position: absolute;
+        top: 40%;
+        left: 25vw;
+        text-decoration: solid;
+    }
+    /********************Announcement Home Page *********************/
+
+      .grid-container {
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .tile {
+        height: 37vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1%;
+      }
+      .tileHeading {
+        display: flex;
+        flex-direction: column;
+        background-color: #053C5E;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 33%;
+        color: white;
+      }
+      .tileHeading h2 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+      }
+      
+      hr {
+        width: 70%;
+        display: block;
+      }
+      
+      .tileContent {
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 67%;
+        color: white;
+      }
+      
+      .tileContent > .tileContent-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 150%;
+      
+      }
+      
+      li {
+        padding: 3%;
+      }
+      
+  }
+  
+  
+  
+  
+  

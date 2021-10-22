@@ -1,0 +1,84 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Login-Form {
+    margin-left: 55vw;
+    width: 20vw;
+  }
+
+  .Login-Inputs {
+    width: 20vw;
+    height: 2vw;
+  }
+
+  .Login-Button {
+    margin-left: 7vw;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .Login-Form {
+    margin-left: 55vw;
+    width: 20vw;
+  }
+
+  .Login-Inputs {
+    width: 20vw;
+    height: 2vw;
+  }
+
+  .Login-Button {
+    margin-left: 7vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991) {
+  .Login-Form {
+    margin-left: 55vw;
+    width: 20vw;
+  }
+
+  .Login-Inputs {
+    width: 20vw;
+    height: 2vw;
+  }
+
+  .Login-Button {
+    margin-left: 7vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Login-Form {
+    margin-left: 55vw;
+    width: 20vw;
+  }
+
+  .Login-Inputs {
+    width: 20vw;
+    height: 2vw;
+  }
+
+  .Login-Button {
+    margin-left: 7vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Login-Form {
+    margin-left: 55vw;
+    width: 20vw;
+  }
+
+  .Login-Inputs {
+    width: 20vw;
+    height: 2vw;
+  }
+
+  .Login-Button {
+    margin-left: 7vw;
+  }
+}

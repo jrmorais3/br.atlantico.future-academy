@@ -1,0 +1,6 @@
+.top-menu-item:not(:nth-last-child(1)){
+    border-right: 2px solid white;
+}
+.top-menu-item:hover{
+    background-color: darkred;
+}

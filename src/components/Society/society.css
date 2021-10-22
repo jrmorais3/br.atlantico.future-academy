@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 600px) {
+  Society-main {
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+    top: 5;
+    margin-top: 12.8vh;
+  }
+
+  .Society-Heading {
+    background-color: #053c5e;
+    width: 30vw;
+    margin-right: -30vw;
+    position: fixed;
+    height: 100vh;
+  }
+
+  .Society-Heading > div {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin: 40vh 0vw 0vw 40px;
+    font-size: 7vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Society-Content-elements {
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    border-bottom: solid 2px#EF494E;
+    color: white;
+    justify-content: center;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 180px;
+    top: 5;
+  }
+
+  .Society-Content-elements:first-child {
+    margin-top: 10vh;
+  }
+
+  .Society-Photo-part {
+    width: 25%;
+    height: 20vh;
+    margin: 5px 30px 10px 0px;
+  }
+
+  .Society-Photo-part img {
+    border-radius: 50%;
+  }
+
+  .Society-Detail-part {
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  Society-main {
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+    top: 5;
+    margin-top: 12.8vh;
+  }
+
+  .Society-Heading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0;
+  }
+
+  .Society-Heading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+
+  .Society-Heading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Society-Content-elements {
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-left: 18rem;
+    padding-top: 30px;
+    padding-bottom: 27rem;
+  }
+
+  .Society-Content-elements:first-child {
+    margin-top: 10vh;
+  }
+
+  .Society-Photo-part {
+    width: 25%;
+    height: 20vh;
+    margin: 5px 30px 10px 0px;
+  }
+
+  .Society-Photo-part img {
+    border-radius: 50%;
+  }
+
+  .Society-Detail-part {
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  Society-main {
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+    top: 5;
+    margin-top: 12.8vh;
+  }
+
+  .Society-Heading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0;
+  }
+
+  .Society-Heading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+
+  .Society-Heading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Society-Content-elements {
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    /* border-bottom: solid 2px#EF494E; */
+    color: white;
+    justify-content: center;
+    margin-left: 15rem;
+    padding-top: 30px;
+    padding-bottom: 24rem;
+  }
+
+  .Society-Content-elements:first-child {
+    margin-top: 10vh;
+  }
+
+  .Society-Photo-part {
+    width: 25%;
+    height: 20vh;
+    margin: 5px 30px 10px 0px;
+  }
+
+  .Society-Photo-part img {
+    border-radius: 50%;
+  }
+
+  .Society-Detail-part {
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  Society-main {
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+    top: 5;
+    margin-top: 12.8vh;
+  }
+
+  .Society-Heading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0;
+  }
+
+  .Society-Heading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+
+  .Society-Heading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Society-Content-elements {
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    /* border-bottom: solid 2px#EF494E; */
+    color: white;
+    justify-content: center;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 20rem;
+  }
+
+  .Society-Content-elements:first-child {
+    margin-top: 10vh;
+  }
+
+  .Society-Photo-part {
+    width: 25%;
+    height: 20vh;
+    margin: 5px 30px 10px 0px;
+  }
+
+  .Society-Photo-part img {
+    border-radius: 50%;
+  }
+
+  .Society-Detail-part {
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  Society-main {
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+    top: 5;
+    margin-top: 12.8vh;
+  }
+
+  .Society-Heading {
+    display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0;
+  }
+
+  .Society-Heading h2 {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+  }
+
+  .Society-Heading hr {
+    width: 70%;
+    display: block;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Society-Content-elements {
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    /* border-bottom: solid 2px#EF494E; */
+    color: white;
+    justify-content: center;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 180px;
+    top: 5;
+    margin-bottom: 6rem;
+  }
+
+  .Society-Content-elements:first-child {
+    margin-top: 10vh;
+  }
+
+  .Society-Photo-part {
+    width: 25%;
+    height: 20vh;
+    margin: 5px 30px 10px 0px;
+  }
+
+  .Society-Photo-part img {
+    border-radius: 50%;
+  }
+
+  .Society-Detail-part {
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}

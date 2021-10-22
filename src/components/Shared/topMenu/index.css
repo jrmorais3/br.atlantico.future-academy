@@ -1,0 +1,237 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top-menu{
+        z-index: 5;
+        margin-top: 4vh;
+        background-color: #ed4832;
+        padding: 2px 23px 2px 25px;
+        user-select: none;
+        position: fixed;
+        width: 100%;
+    }
+    .top-menu > .right{
+        float: right;
+    }
+    .top-menu > .right > *{
+        margin-left: 5px;
+    }
+    .top-menu > .left{
+        float: left;
+    }
+    .top-menu > .left >*{
+        margin-right: 5px;
+    }
+    .top-menu > .left >*:first-of-type{
+        margin-right: 0px;
+        margin-left: -27px;
+    }
+    .top-menu > .right >*:first-of-type{
+        margin-right: 27px;
+    }
+    .top-menu > .left > *, .top-menu > .right > *{
+        padding:9px;
+        display: inline-block;
+        text-align: center;
+        color: #ebe1dc;
+    }
+    .top-menu *:hover{
+        cursor: pointer;
+    }
+    .clear-fix{
+        clear: both;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .top-menu{
+        z-index: 5;
+        top: 5.7rem;
+        background-color: #ed4832;
+        padding: 2px 23px 2px 25px;
+        user-select: none;
+        position: fixed;
+        width: 100%;
+        left: 0.0rem;
+    }
+    .top-menu > .right{
+        float: right;
+    }
+    .top-menu > .right > *{
+        margin-left: 0px;
+    }
+    .top-menu > .left{
+        float: left;
+    }
+    .top-menu > .left >*{
+        margin-right: 0px;
+    }
+    .top-menu > .left >*:first-of-type{
+        margin-right: 0px;
+        margin-left: -3rem;
+    }
+    .top-menu > .right >*:first-of-type{
+        margin-right: 0rem;
+    }
+    .top-menu > .left > *, .top-menu > .right > *{
+        padding: 9px;
+        display: inline-block;
+        text-align: center;
+        min-width: 50px;
+        color: #ebe1dc;
+    }
+    .top-menu *:hover{
+        cursor: pointer;
+        background-color: crimson;
+    }
+    .clear-fix{
+        clear: both;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .top-menu{
+        z-index: 5;
+        top: 6rem;
+        background-color: #ed4832;
+        padding: 2px 2px 2px 25px;
+        user-select: none;
+        position: fixed;
+        width: 100%;
+        left: 0.0rem;
+    }
+    .top-menu > .right{
+        float: right;
+    }
+    .top-menu > .right > *{
+        margin-left: 5px;
+    }
+    .top-menu > .left{
+        float: left;
+    }
+    .top-menu > .left >*{
+        margin-right: 5px;
+    }
+    .top-menu > .left >*:first-of-type{
+        margin-right: 0px;
+        margin-left: -27px;
+    }
+    .top-menu > .right >*:first-of-type{
+        margin-right: 27px;
+    }
+    .top-menu > .left > *, .top-menu > .right > *{
+        padding: 9px;
+        display: inline-block;
+        text-align: center;
+        min-width: 50px;
+        color: #ebe1dc;
+    }
+    .top-menu *:hover{
+        cursor: pointer;
+    }
+    .clear-fix{
+        clear: both;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .top-menu{
+        z-index: 5;
+        top: 8rem;
+        background-color: #ed4832;
+        padding: 2px 23px 2px 25px;
+        user-select: none;
+        position: fixed;
+        width: 100%;
+        left: 0.0rem;
+    }
+    .top-menu > .right{
+        float: right;
+    }
+    .top-menu > .right > *{
+        margin-left: 5px;
+    }
+    .top-menu > .left{
+        float: left;
+    }
+    .top-menu > .left >*{
+        margin-right: 5px;
+    }
+    .top-menu > .left >*:first-of-type{
+        margin-right: 0px;
+        margin-left: -27px;
+    }
+    .top-menu > .right >*:first-of-type{
+        margin-right: 27px;
+    }
+    .top-menu > .left > *, .top-menu > .right > *{
+        padding: 9px;
+        display: inline-block;
+        text-align: center;
+        min-width: 50px;
+        color: #ebe1dc;
+    }
+    .top-menu *:hover{
+        cursor: pointer;
+    }
+    .clear-fix{
+        clear: both;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .top-menu{
+        z-index: 5;
+        top: 8rem;
+        background-color: #fa9a09;
+        padding: 2px 23px 2px 25px;
+        user-select: none;
+        position: fixed;
+        width: 100%;
+    }
+    .top-menu > .right{
+        float: right;
+    }
+    .top-menu > .right > *{
+        margin-left: 5px;
+    }
+    .top-menu > .left{
+        float: left;
+    }
+    .top-menu > .left >*{
+        margin-right: 5px;
+        position: relative;
+    }
+    .top-menu > .left >*:last-of-type{
+        margin-right: 5px;
+    }
+    .top-menu > .left >*:first-of-type{
+        margin-right: 0px;
+        margin-left: -27px;
+    }
+    .top-menu > .right >*:first-of-type{
+        margin-right: auto;
+    }
+    .top-menu > .left > *, .top-menu > .right > *{
+        padding: 9px;
+        display: inline-block;
+        text-align: center;
+        min-width: 50px;
+        color: #ebe1dc;
+
+    }
+    .top-menu *:hover{
+        cursor: pointer;
+        color: black;
+        background-color: #ed4832;
+    }
+    .clear-fix{
+        clear: both;
+    }
+}
+
+
+

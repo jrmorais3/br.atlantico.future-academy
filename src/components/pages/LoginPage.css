@@ -1,0 +1,99 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Login-Page-Body {
+    width: 100vw;
+    margin-left: -28vw;
+  }
+
+  .Login-Page-Head {
+    padding-top: 14vw;
+  }
+
+  .Login-title {
+    margin-left: 60vw;
+  }
+
+  .To-signup {
+    margin-left: 58vw;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .Login-Page-Body {
+    width: 100vw;
+    margin-left: -28vw;
+  }
+
+  .Login-Page-Head {
+    padding-top: 14vw;
+  }
+
+  .Login-title {
+    margin-left: 60vw;
+  }
+
+  .To-signup {
+    margin-left: 58vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991) {
+  .Login-Page-Body {
+    width: 100vw;
+    margin-left: -28vw;
+  }
+
+  .Login-Page-Head {
+    padding-top: 14vw;
+  }
+
+  .Login-title {
+    margin-left: 60vw;
+  }
+
+  .To-signup {
+    margin-left: 58vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Login-Page-Body {
+    width: 100vw;
+    margin-left: -28vw;
+  }
+
+  .Login-Page-Head {
+    padding-top: 14vw;
+  }
+
+  .Login-title {
+    margin-left: 60vw;
+  }
+
+  .To-signup {
+    margin-left: 58vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Login-Page-Body {
+    width: 100vw;
+    margin-left: -28vw;
+  }
+
+  .Login-Page-Head {
+    padding-top: 14vw;
+  }
+
+  .Login-title {
+    margin-left: 60vw;
+  }
+
+  .To-signup {
+    margin-left: 58vw;
+  }
+}
