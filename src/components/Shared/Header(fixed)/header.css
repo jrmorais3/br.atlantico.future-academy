@@ -199,7 +199,7 @@
 		padding-bottom: 1%;
 		position: fixed;
 		height: 8.5rem;
-		background-color: white;
+		background-color: #5ec3c7;
 		z-index: 5;
 		left: 0.0rem;
 		width: 100%;
@@ -218,7 +218,7 @@
 		  margin: 0;
 		  display: inline;
 		  float: left;
-		  background-color:rgb(255, 255, 255)
+		  background-color: #5ec3c7;
 	  }
 	  
 	  
@@ -227,8 +227,8 @@
 		  margin-bottom: 5px;
 		  height: 100px;
 		  float: left;
-		  display: inline;
-		  color: rgb(95, 212, 216);
+		  display: inline;		
+		  text-decoration-color: white;
 		  padding-top: 12px;
 	  }
 
