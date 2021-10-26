@@ -223,11 +223,11 @@
         color: #ebe1dc;
 
     }
-    .top-menu *:hover{
+    /*.top-menu *:hover{
         cursor: pointer;
         color: black;
-        background-color: #ed4832;
-    }
+        background-color: #064b04;
+    }*/
     .clear-fix{
         clear: both;
     }

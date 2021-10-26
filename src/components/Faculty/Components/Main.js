@@ -16,13 +16,13 @@ class Main extends React.Component{
             <main>
                 <div className='Title'>
                     <hr />
-                    <h2>Faculty</h2>
+                    <h2>Agendamento</h2>
                     <hr />
                 </div>
                     
                 
                 <div className='Context' >
-                    <div className="faculty-list" >
+                    <div>
                         {facultyData}
                     </div>
                 </div>
