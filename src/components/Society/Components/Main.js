@@ -20,7 +20,7 @@ class SocietyMain extends React.Component{
                     <hr />
                 </div>
                 
-                <div className='Context'>
+                <div className='Society-Context'>
                     <div className='Society-Content'>
                         {facultyData}
                     </div>

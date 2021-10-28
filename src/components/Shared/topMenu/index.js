@@ -42,7 +42,7 @@ class TopMenu extends Component {
                             <Item text='QUEM SOMOS'/>
                         </NavLink>
 
-                        <NavLink to="/classes">
+                        <NavLink to="/agendamento">
                             <Item text='AGENDE SEU HORÁRIO'/>
                         </NavLink>
 
@@ -54,7 +54,7 @@ class TopMenu extends Component {
 
                         </div>
                         <div className= 'right'>
-                        <NavLink to='/forum'>
+                        <NavLink to='/login'>
                             <Item text='LOGIN'/>
                         </NavLink>
                         </div>                 

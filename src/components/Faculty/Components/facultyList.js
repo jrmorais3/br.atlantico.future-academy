@@ -1,7 +1,7 @@
 
 const facultyList = [
     {
-        image: 'https://nptel.ac.in/content/noc/NOC19/SEM2/Candidate_photos/STSEP191002886_photo.jpeg',
+        image: '',
         name: 'Khushil Kumar Saini',
         post: 'Associate Professor',
         qualification: 'M. Tech (Computer Technology)',

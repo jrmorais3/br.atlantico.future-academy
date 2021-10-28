@@ -14,20 +14,9 @@ import HistoryPage from "./components/pages/HistoryPage";
 
 import About from './components/About/about';
 import Faculty from './components/Faculty/faculty'
-import Announcement from './components/Announcements/announcement';
-import Opportunity from './components/Opportunites/opportunity'
 import Society from './components/Society/society';
 import MainBody from './components/HomePage/MainBody/mainBody';
 
-
-const ForumAndNavbar = () => {
-        return(
-            <div>
-                <NavBar/>
-                <FrontPage />
-            </div>
-        );
-}
 
 // const ThreadAndNavbar = () => {
 //     return(
@@ -50,9 +39,7 @@ const App =({location,isAuthenticated}) => (
             {console.log(location)}
             <GuestRoute location={location} path="/" exact component={MainBody} />
             <GuestRoute location={location} path="/about" exact component={About} />
-            <GuestRoute location={location} path="/classes" exact component={Faculty} />
-            <GuestRoute location={location} path="/courses" exact component={Announcement} />
-            <GuestRoute location={location} path="/pilates" exact component={Opportunity} />
+            <GuestRoute location={location} path="/agendamento" exact component={Faculty} />           
             <GuestRoute location={location} path="/contact" exact component={Society} />
 
             {/* <UserRoute location={location} path="/home" exact component={MainBody} />
@@ -62,7 +49,7 @@ const App =({location,isAuthenticated}) => (
             <UserRoute location={location} path="/opportunity" exact component={Opportunity} />
             <UserRoute location={location} path="/society" exact component={Society} /> */}
             <div className="ui container">
-                <UserRoute location={location} path="/forum" component={ForumAndNavbar}/>
+                
                 <GuestRoute location={location} path="/login" exact component={LoginPage}/>
                 <GuestRoute location={location} path="/signup" exact component={SignupPage}/>
                 <UserRoute location={location} path="/newthread" exact component={NewThreadPage}/>
