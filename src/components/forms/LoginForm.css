@@ -69,16 +69,35 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .Login-Form {
-    margin-left: 55vw;
+    margin-left: 95vw;
     width: 20vw;
+    background-color: #f18509cc;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 20px;   
+    border-color: black;
+    border-width: 2px; 
   }
 
-  .Login-Inputs {
+  #username {
     width: 20vw;
-    height: 2vw;
+    margin-left: 0vw;
+    padding-left: 20px;
+    height: 3vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px;
+    border-color: black;
+    border-width: 2px;
   }
-
-  .Login-Button {
-    margin-left: 7vw;
+  #password {
+    width: 20vw;
+    height: 3vw;
+    border-radius: 0px;
+    border-color: black;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 }

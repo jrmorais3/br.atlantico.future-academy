@@ -41,10 +41,7 @@ body {
 }
  */
 
- .normal-pages {
-   width: 100vw;
-   height: 100vh;
+ .normal-page {
+   width: 10vw;
+   height: 30vh;
  }
-.password {
-  color: white;
-}
