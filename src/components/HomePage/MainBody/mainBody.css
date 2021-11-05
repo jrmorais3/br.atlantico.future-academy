@@ -37,13 +37,6 @@
     text-decoration: solid;
 }
 /********************Announcement Home Page *********************/
-
-  .grid-container {
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
   .tile {
     height: 90vw;
     width: 100vw;
@@ -144,6 +137,14 @@
       z-index: 0;
       display: flex;
       flex-direction: column;
+    }
+
+    .sectionMain {
+      height: 100%;
+      width: 200vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .tile {

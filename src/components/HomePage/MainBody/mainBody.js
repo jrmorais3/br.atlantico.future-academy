@@ -23,21 +23,22 @@ class MainBody extends React.Component {
 										<b className="Text-Box">Pilates para todos os dias</b>
 									</h2>
 								</div>
-								<section className="sectionMain">
-									<div className = "fPlan">
-										<h2>
-											<b className="Text-Box">Plano Mensal</b>
-										</h2>
-									</div>
-									<div className = "sPlan">
-										<h2>
-											<b className="Text-Box">Plano Anual</b>
-										</h2>
-									</div>
-								</section>
+								<div className="sectionMain">
+											<div>
+												<div className = "Semester-Plan">
+													<h2>
+														<b className="Text-Box">Plano Semestral</b>
+													</h2>
+												</div>
+												<div className = "Annual-Plan">
+													<h2>
+														<b className="Text-Box">Plano Anual</b>
+													</h2>
+												</div>
+											</div>
+									</div>	
 						</div>
 					</div>
-					<DisplayTiles />
 				</div>
 			</main>
 		);
