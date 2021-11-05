@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
-    "axios": "^0.18.0",
+    "axios": "^0.24.0",
     "moment": "^2.22.1",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
@@ -13,11 +13,11 @@
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^4.0.3",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "semantic-ui-css": "^2.3.1",
-    "semantic-ui-react": "^0.79.1"
+    "semantic-ui-react": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,5 +29,17 @@
   "devDependencies": {
     "redux-devtools-extension": "^2.13.2"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
