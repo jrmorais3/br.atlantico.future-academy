@@ -29,5 +29,17 @@
   "devDependencies": {
     "redux-devtools-extension": "^2.13.2"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apolianojunior/br.atlantico.future-academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apolianojunior/br.atlantico.future-academy/issues"
+  },
+  "homepage": "https://github.com/apolianojunior/br.atlantico.future-academy#readme"
 }
