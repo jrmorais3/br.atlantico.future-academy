@@ -24,20 +24,18 @@ class MainBody extends React.Component {
 									</h2>
 									Exercite-se o quanto quiser com os nossos planos disponíveis 
 								</div>
-								<div className="sectionMain">
-											<div> 
-												<div className = "semester-Plan">
-													<h2>
-														<b className="Text-Box">Plano Semestral</b>
-													</h2>
-												</div>
-												<div className = "annual-Plan">
-													<h2>
-														<b className="Text-Box">Plano Anual</b>
-													</h2>
-												</div>
-											</div>
-									</div>	
+								<div className="sectionMain"> 
+									<div className = "semester-Plan">
+										<h2>
+											<b className="Text-Box">Plano Semestral</b>
+										</h2>
+									</div>
+									<div className = "annual-Plan">
+										<h2>
+											<b className="Text-Box">Plano Anual</b>
+										</h2>
+									</div>
+								</div>	
 						</div>
 					</div>
 				</div>

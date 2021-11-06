@@ -118,9 +118,9 @@
     .Branch-Box-Heading {
       padding: 20px;
       display: inline-block;
-      color: #1b1b1be1;
+      color: rgb(44, 186, 44);
       border-style: solid;
-      width: 50vw;
+      width: 60vw;
       font-size: larger;
       position: absolute;
       top: 40%;
@@ -142,35 +142,40 @@
 
     .sectionMain {
       height: 100%;
-      width: 200vh;
+      width: flex;
       display: flex;
+      position: center;
       justify-content: center;
       align-items: center;
     }
 
     .semester-Plan {
-      padding: 120px;
+      padding-right: 140px;
       display: inline-block;
-      color: #1b1b1be1;
-      border-style: flex;
-      width: 50vw;
+      border-style: solid;
+      color: rgb(44, 186, 44);
+      width: 20vw;
+      height: 600px;
+      margin-top: 420px;
+      margin-left: 150px;
       position: relative;
       font-size: larger;
-      top: 40%;
-      left: 25vw;
+      left: 25vh;
       text-decoration: solid;
       border-radius: 6px;
     }
 
     .annual-Plan {
-        padding: 120px;
+        padding-right: 140px;
         display: inline-block;
-        color: #1b1b1be1;
-        border-style: flex;
-        width: 50vw;
-        position: left;
+        border-style: solid;
+        color: rgb(44, 186, 44);
+        width: 20vw;
+        height: 600px;
+        margin-top: 420px;
+        margin-right: 110px;
+        position: relative;
         font-size: larger;
-        top: 40%;
         left: 25vw;
         text-decoration: solid;
         border-radius: 6px;
