@@ -69,12 +69,12 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .Login-Form {
-    margin-left: 95vw;
+    margin-left: 15vw;
     width: 20vw;
     background-color: #f18509cc;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    padding-top: 20px;   
+    padding-top: 15px;   
     border-color: black;
     border-width: 2px; 
   }

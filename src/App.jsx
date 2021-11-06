@@ -37,7 +37,7 @@ const App =({location,isAuthenticated}) => (
             {console.log(location)}
             <GuestRoute location={location} path="/" exact component={MainBody} />
             <GuestRoute location={location} path="/about" exact component={About} />
-            <UserRoute location={location} path="/agendamento" exact component={Schedule} />           
+            <GuestRoute location={location} path="/agendamento" exact component={Schedule} />           
             <GuestRoute location={location} path="/contact" exact component={Society} />
 
             {/* <UserRoute location={location} path="/home" exact component={MainBody} />

@@ -81,21 +81,25 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .Login-Page-Body {
-    background-color: #053C5E;
-    display:inline-block;
-    width: auto;
-    height: 50vw;
+    display:inline-block;   
   }
 
   .Login-Page-Head {
-    padding-top: 14vw;
-    display: block;
+    margin-left: 53vw;
+    margin-top: 10vw;
+    background-color: #053c5e;
+    background-attachment: fixed;
+    background-size:100%;
+    background-repeat:no-repeat;
+    display: inline-block;
+    width: 100vw;
+    height: 40vw;
+    padding-top: 40px;
     }
 
   .Login-title {
-    margin-left: 95vw;
+    margin-left: 15vw;
     background-color: #f18509cc;
-    border-color: black;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     width: 20vw;
@@ -104,6 +108,6 @@
   }
 
   .To-signup {
-    margin-left: 95vw;
+    margin-left: 15vw;
   }
 }

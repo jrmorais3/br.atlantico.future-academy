@@ -46,7 +46,7 @@ class SignupForm extends Component{
                     loading : false
                 }));
         }
-        window.location.href="/forum";
+        window.location.href="/agendamento";
     }
 
     render(){

@@ -392,6 +392,7 @@
   }
 
   .Schedule-Heading {
+    padding-top: 12vw;
     display: flex;
     flex-direction: column;
     background-color: #053c5e;
@@ -416,12 +417,15 @@
   /****************************/
 
   .Schedule-Context {
-    margin-left: 30vw;
-    background-color: tomato;
+    padding-top: 10vw;
+    margin-left: 50vw;
+    background: linear-gradient(#f18509a4, #f18509a9), url('../images/yoga-3053487.jpg');
+    background-size:70%;
+    background-repeat: no-repeat;    
     background-position: right;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: 70vw;
+    background-attachment:fixed;
+    width: 80vw;
+    height: 47vw;
   }
 
   .Schedule-Content-elements {
