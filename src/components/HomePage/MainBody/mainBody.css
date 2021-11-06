@@ -37,13 +37,6 @@
     text-decoration: solid;
 }
 /********************Announcement Home Page *********************/
-
-  .grid-container {
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
   .tile {
     height: 90vw;
     width: 100vw;
@@ -125,14 +118,15 @@
     .Branch-Box-Heading {
       padding: 20px;
       display: inline-block;
-      color: #1b1b1be1;
+      color: rgb(44, 186, 44);
       border-style: solid;
-      width: 50vw;
+      width: 60vw;
       font-size: larger;
       position: absolute;
       top: 40%;
       left: 25vw;
       text-decoration: solid;
+      border-radius: 6px;
     }
     .Text-Box {
       font-size: 40px;
@@ -144,6 +138,49 @@
       z-index: 0;
       display: flex;
       flex-direction: column;
+    }
+
+    .sectionMain {
+      height: 100%;
+      width: flex;
+      display: flex;
+      position: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .semester-Plan {
+      padding-right: 140px;
+      display: inline-block;
+      border-style: solid;
+      background-image: linear-gradient(to top, white, rgba(92, 179, 92, 0.556));
+      color: rgb(44, 186, 44);
+      width: 20vw;
+      height: 600px;
+      margin-top: 420px;
+      margin-left: 150px;
+      position: relative;
+      font-size: larger;
+      left: 25vh;
+      text-decoration: solid;
+      border-radius: 6px;
+    }
+
+    .annual-Plan {
+        padding-right: 140px;
+        display: inline-block;
+        border-style: solid;
+        background-image: linear-gradient(to top, white, rgba(92, 179, 92, 0.556));
+        color: rgb(44, 186, 44);
+        width: 20vw;
+        height: 600px;
+        margin-top: 420px;
+        margin-right: 110px;
+        position: relative;
+        font-size: larger;
+        left: 25vw;
+        text-decoration: solid;
+        border-radius: 6px;
     }
 
     .tile {
