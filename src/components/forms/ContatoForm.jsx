@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Form, Button, Message} from 'semantic-ui-react';
 import InlineError from '../misc/InlineError';
-import './LoginForm.css';
+import './ContatoForm.css';
 
 class ContatoForm extends Component{
     constructor(props){
