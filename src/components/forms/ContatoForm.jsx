@@ -8,8 +8,9 @@ class ContatoForm extends Component{
         super(props);
         this.state={
             data:{
-                "username":'',
-                "password":''
+                "name":'',
+                "email":'',
+                "contact":''
             },
             loading:false,
             errors:{},
@@ -19,16 +20,19 @@ class ContatoForm extends Component{
     }
     onChange = (e) =>{
         this.setState({
-            data:{...this.state.data,[e.target.name]: e.target.value}
+            data:{...this.state.data,[e.target.name]: e.target.value [e.target.contact]}
         })
     }
     onSubmit = () =>{
         const errors={};
-        if(!this.state.data.username){
-            errors.username= "username required";
+        if(!this.state.data.name){
+            errors.name= "name required";
         }
-        if(!this.state.data.password){
-            errors.password="password required";
+        if(!this.state.data.email){
+            errors.email="email required";
+        }
+        if(!this.state.data.contact){
+            errors.contact="contact required";
         }
         this.setState({
             errors:errors
@@ -54,56 +58,43 @@ class ContatoForm extends Component{
                         <p>{this.state.errors.global}</p>
                     </Message>
                     )}
-                <Form.Field error={!!this.state.errors.username}>
-                    <label htmlFor="username" style = {{color: "white"}}>Username</label>
+                <Form.Field error={!!this.state.errors.name}>
+                    <label htmlFor="username" style = {{color: "white"}}>Name</label>
                     <input className="Login-Inputs"
                         type="username"
                         id="username"
                         name="username"
-                        placeholder="username"
-                        value={this.state.data.username}
+                        placeholder="name"
+                        value={this.state.data.name}
                         onChange={this.onChange}
                     />
-                    {this.state.errors.username && <InlineError text={this.state.errors.username}/>}
+                    {this.state.errors.name && <InlineError text={this.state.errors.name}/>}
                 </Form.Field>
-                <Form.Field error={!!this.state.errors.username}>
+                <Form.Field error={!!this.state.errors.email}>
+                    <label htmlFor="email" style = {{color: "white"}}>Email</label>
+                    <input
+                        className="Login-Inputs"
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="email"
+                        value={this.state.data.email}
+                        onChange={this.onChange}
+                    />
+                    {this.state.errors.email && <InlineError text={this.state.errors.email}/>}
+                </Form.Field><br/>
+                <Form.Field error={!!this.state.errors.contact}>
                     <label htmlFor="contact" style = {{color: "white"}}>Contato</label>
                     <input className="Login-Inputs"
                         type="contact"
                         id="contact"
                         name="contact"
                         placeholder="contato"
-                        value={this.state.data.username}
+                        value={this.state.data.contact}
                         onChange={this.onChange}
                     />
-                    {this.state.errors.username && <InlineError text={this.state.errors.username}/>}
+                    {this.state.errors.contact && <InlineError text={this.state.errors.contact}/>}
                 </Form.Field>
-                <Form.Field error={!!this.state.errors.password}>
-                    <label htmlFor="password" style = {{color: "white"}}>Password</label>
-                    <input
-                        className="Login-Inputs"
-                        type="password"
-                        id="password"
-                        name="password"
-                        placeholder="password"
-                        value={this.state.data.password}
-                        onChange={this.onChange}
-                    />
-                    {this.state.errors.password && <InlineError text={this.state.errors.password}/>}
-                </Form.Field><br/>
-                <Form.Field error={!!this.state.errors.password}>
-                    <label htmlFor="email" style = {{color: "white"}}>Email</label>
-                    <input
-                        className="Login-Inputs"
-                        type="password"
-                        id="password"
-                        name="password"
-                        placeholder="E-mail"
-                        value={this.state.data.password}
-                        onChange={this.onChange}
-                    />
-                    {this.state.errors.password && <InlineError text={this.state.errors.password}/>}
-                </Form.Field><br/>
                 <Button primary className = "Login-Button" style={{marginLeft: "7vw"}}>Login</Button>
             </Form>
         );

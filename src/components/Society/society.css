@@ -316,6 +316,7 @@
     color: white;
     position:fixed;
     left: 0;
+    padding-top: 10%;
   }
 
   .Society-Heading h2 {
@@ -330,7 +331,7 @@
   }
 
   .Society-Context {
-    margin-left: 30vw;
+    margin-left: 50vw;
     background-color: rgb(255, 255, 255);
     /*background: url(Background.png);*/
     background-position: right;
@@ -340,11 +341,13 @@
   }
 
   .Society-Content {
-    background-color: black;
-    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    width: 130%;
     height: 500%;
     margin-top: 100px;
     margin-left: -100px;
+    padding-left: 30%;
+    padding-top: 20%;
   }
 
   .Society-Content-elements {

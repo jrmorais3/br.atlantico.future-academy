@@ -23,7 +23,6 @@ class SocietyMain extends React.Component{
                 
                 <div className='Society-Context'>
                     <div className='Society-Content'>
-                        {facultyData}
                         <ContatoForm submit={this.submit}/><br/>
                     </div>
                 </div>
