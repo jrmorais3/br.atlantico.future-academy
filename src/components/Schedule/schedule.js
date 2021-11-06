@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from '../Shared/Header(fixed)/headerFixed';
 import TopMenu from '../Shared/topMenu/index';
-import FacultyMain from './Components/Main';
-import './faculty.css';
+import ScheduleMain from './Components/Main';
+import './schedule.css';
 
-class Faculty extends React.Component{
+class Schedule extends React.Component{
   render(){
     return (
       <div className="App">
           <Header/>
           <TopMenu/>
-          <FacultyMain />
+          <ScheduleMain />
       </div>
     )
   }
 }
 
-export default Faculty;
+export default Schedule;

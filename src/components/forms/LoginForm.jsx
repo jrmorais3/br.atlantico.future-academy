@@ -54,9 +54,8 @@ class LoginForm extends Component{
                         <p>{this.state.errors.global}</p>
                     </Message>
                     )}
-                <Form.Field error={!!this.state.errors.username}>
-                    <label htmlFor="username" style = {{color: "white"}}>Username</label>
-                    <input className="Login-Inputs"
+                <Form.Field error={this.state.errors.username}>
+                    <input 
                         type="username"
                         id="username"
                         name="username"
@@ -66,10 +65,9 @@ class LoginForm extends Component{
                     />
                     {this.state.errors.username && <InlineError text={this.state.errors.username}/>}
                 </Form.Field>
-                <Form.Field error={!!this.state.errors.password}>
-                    <label htmlFor="password" style = {{color: "white"}}>Password</label>
+                <Form.Field error={this.state.errors.password}>
+                    
                     <input
-                        className="Login-Inputs"
                         type="password"
                         id="password"
                         name="password"
@@ -78,8 +76,8 @@ class LoginForm extends Component{
                         onChange={this.onChange}
                     />
                     {this.state.errors.password && <InlineError text={this.state.errors.password}/>}
-                </Form.Field><br/>
-                <Button primary className = "Login-Button" style={{marginLeft: "7vw"}}>Login</Button>
+                </Form.Field>
+                <Button primary className = "Login-Button" style = {{marginLeft: "120px"}}>Login</Button>
             </Form>
         );
     }

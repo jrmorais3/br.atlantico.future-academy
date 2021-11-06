@@ -383,7 +383,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  Faculty-main {
+  Schedule-main {
     top: 5;
     margin-top: 12.8vh;
     display: flex;
@@ -391,7 +391,8 @@
     height: 175vh;
   }
 
-  .Faculty-Heading {
+  .Schedule-Heading {
+    padding-top: 12vw;
     display: flex;
     flex-direction: column;
     background-color: #053c5e;
@@ -403,28 +404,31 @@
     position: fixed;
     left: 0;
   }
-  .Faculty-Heading h2 {
+  .Schedule-Heading h2 {
     width: 100%;
     padding: auto;
     text-align: center;
   }
 
-  .Faculty-Heading hr {
+  .Schedule-Heading hr {
     width: 70%;
     display: block;
   }
   /****************************/
 
-  .Faculty-Context {
-    margin-left: 30vw;
-    background-color: tomato;
+  .Schedule-Context {
+    padding-top: 10vw;
+    margin-left: 50vw;
+    background: linear-gradient(#f18509a4, #f18509a9), url('../images/yoga-3053487.jpg');
+    background-size:70%;
+    background-repeat: no-repeat;    
     background-position: right;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: 70vw;
+    background-attachment:fixed;
+    width: 80vw;
+    height: 47vw;
   }
 
-  .Faculty-Content-elements {
+  .Schedule-Content-elements {
     height: 40vh;
     width: 80%;
     display: flex;
@@ -438,20 +442,11 @@
     margin-bottom: 6rem;
   }
 
-  .Faculty-Content-elements:first-child {
+  .Schedule-Content-elements:first-child {
     margin-top: 15vh;
   }
 
-  .Faculty-Photo-part {
-    width: 15%;
-    margin: 5px 30px 10px 0px;
-  }
-
-  .Faculty-Photo-part img {
-    border-radius: 100%;
-  }
-
-  .Faculty-Detail-part {
+  .Schedule-Detail-part {
     width: 80%;
     font-size: 15px;
     line-height: 5px;
