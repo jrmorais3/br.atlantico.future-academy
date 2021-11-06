@@ -126,6 +126,7 @@
       top: 40%;
       left: 25vw;
       text-decoration: solid;
+      border-radius: 6px;
     }
     .Text-Box {
       font-size: 40px;
@@ -145,6 +146,34 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    .semester-Plan {
+      padding: 120px;
+      display: inline-block;
+      color: #1b1b1be1;
+      border-style: flex;
+      width: 50vw;
+      position: relative;
+      font-size: larger;
+      top: 40%;
+      left: 25vw;
+      text-decoration: solid;
+      border-radius: 6px;
+    }
+
+    .annual-Plan {
+        padding: 120px;
+        display: inline-block;
+        color: #1b1b1be1;
+        border-style: flex;
+        width: 50vw;
+        position: left;
+        font-size: larger;
+        top: 40%;
+        left: 25vw;
+        text-decoration: solid;
+        border-radius: 6px;
     }
 
     .tile {
