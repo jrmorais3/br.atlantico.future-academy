@@ -46,7 +46,7 @@ class SignupForm extends Component{
                     loading : false
                 }));
         }
-        window.location.href="/forum";
+        window.location.href="/agendamento";
     }
 
     render(){
@@ -73,7 +73,7 @@ class SignupForm extends Component{
                 </Form.Field>
                 <Form.Field error={!!this.state.errors.password}>
                     <label htmlFor="password" style = {{color: "white"}}>Password</label>
-                    <input
+                    <input className="Login-Inputs-password"
                         style={{width:"20vw", height: "2vw"}}
                         type="password"
                         id="password"

@@ -4,20 +4,22 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
+    "history": "^5.1.0",
     "moment": "^2.22.1",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-moment": "^0.7.0",
     "react-redux": "^5.0.7",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "semantic-ui-css": "^2.3.1",
-    "semantic-ui-react": "^0.79.1"
+    "semantic-ui-react": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,16 +32,16 @@
     "redux-devtools-extension": "^2.13.2"
   },
   "proxy": "http://localhost:5000",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/apolianojunior/br.atlantico.future-academy.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/apolianojunior/br.atlantico.future-academy/issues"
-  },
-  "homepage": "https://github.com/apolianojunior/br.atlantico.future-academy#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

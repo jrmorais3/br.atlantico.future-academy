@@ -24,7 +24,7 @@ class SignupPage extends Component{
     }
     render(){
         return(
-            <div style = {{width: "100vw", marginLeft: "-28vw"}}>
+            <div style = {{width: "115vw",  background: "#053C5E"}}>
                 <Header/>
                 <TopMenu/>
                 <div style = {{paddingTop: "14vw"}}>
