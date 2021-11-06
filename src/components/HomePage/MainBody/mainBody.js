@@ -27,7 +27,7 @@ class MainBody extends React.Component {
 								<div className="sectionMain"> 
 									<div className = "semester-Plan">
 										<h2>
-											<b className="Text-Box">Plano Semestral</b>
+											<b className="Text-Box">Plano Mensal</b>
 										</h2>
 									</div>
 									<div className = "annual-Plan">

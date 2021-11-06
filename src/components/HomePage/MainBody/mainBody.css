@@ -153,6 +153,7 @@
       padding-right: 140px;
       display: inline-block;
       border-style: solid;
+      background-image: linear-gradient(to top, white, rgba(92, 179, 92, 0.556));
       color: rgb(44, 186, 44);
       width: 20vw;
       height: 600px;
@@ -169,6 +170,7 @@
         padding-right: 140px;
         display: inline-block;
         border-style: solid;
+        background-image: linear-gradient(to top, white, rgba(92, 179, 92, 0.556));
         color: rgb(44, 186, 44);
         width: 20vw;
         height: 600px;
