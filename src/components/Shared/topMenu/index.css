@@ -140,7 +140,7 @@
     .top-menu{
         z-index: 5;
         top: 8rem;
-        background-color: #ed4832;
+        background-color: #140e0d;
         padding: 2px 23px 2px 25px;
         user-select: none;
         position: fixed;
@@ -186,7 +186,7 @@
     .top-menu{
         z-index: 5;
         top: 8rem;
-        background-color: #fa9a09;
+        background-color: #0d9720;
         padding: 2px 23px 2px 25px;
         user-select: none;
         position: fixed;
@@ -223,11 +223,11 @@
         color: #ebe1dc;
 
     }
-    .top-menu *:hover{
+    /*.top-menu *:hover{
         cursor: pointer;
         color: black;
-        background-color: #ed4832;
-    }
+        background-color: #064b04;
+    }*/
     .clear-fix{
         clear: both;
     }

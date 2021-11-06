@@ -317,7 +317,7 @@
     height: 100vh;
     width: 30%;
     color: white;
-    position: fixed;
+    position:fixed;
     left: 0;
   }
 
@@ -332,9 +332,10 @@
     display: block;
   }
 
-  .Context {
+  .Society-Context {
     margin-left: 30vw;
-    background: url(Background.png);
+    background-color: rgb(255, 255, 255);
+    /*background: url(Background.png);*/
     background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -346,7 +347,7 @@
     width: 70%;
     display: flex;
     /* border-bottom: solid 2px#EF494E; */
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: center;
     margin-left: 150px;
     padding-top: 30px;

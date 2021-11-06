@@ -74,7 +74,7 @@
   }
   
   .tileContent {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/Background.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -175,7 +175,7 @@
     }
     
     .tileContent {
-      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/Background.png');
       background-size: cover;
       background-repeat: no-repeat;
       height: 100%;
@@ -272,7 +272,7 @@
     }
     
     .tileContent {
-      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/Background.png');
       background-size: cover;
       background-repeat: no-repeat;
       height: 100%;
@@ -369,7 +369,7 @@
     }
     
     .tileContent {
-      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/Background.png');
       background-size: cover;
       background-repeat: no-repeat;
       height: 100%;
@@ -411,6 +411,9 @@
       }
 
       .Home-Branch-Box{
+        background: url('../../images/Background.png');
+        background-size: 100%;
+        background-attachment: fixed;
         padding-top: 30%;
         height: 100%;
         text-align: center;
@@ -467,7 +470,7 @@
       }
       
       .tileContent {
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../Background.png');
+        background: linear-gradient(#f18509a4, #f18509a9), url('../../images/Background.png');
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;

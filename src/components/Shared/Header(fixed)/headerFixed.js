@@ -15,7 +15,7 @@ class Header extends React.Component {
 							<br/>
 						</h1>
 						<h3>
-							Um jeito todo diferente de te ajudar a cuidar da sua saúde
+							Um jeito todo diferente de ajudar a cuidar da sua saúde
 						</h3>					
 					</div>			
 				</div>

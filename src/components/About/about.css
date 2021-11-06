@@ -252,6 +252,7 @@
       color: white;
       position: fixed;
       left: 0.0rem;
+      padding-top: 40px;
   }
   .aboutTileHeading h2 {
       width: 100%;
